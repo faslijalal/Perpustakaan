@@ -77,7 +77,7 @@ if (!isset($_SESSION["user"])) {
                 ?>
             </li>
             <li class="nav-item">
-                <a class="nav-link collapsed" href="index.php?page=kategori" data-toggle="collapse" data-target="#collapseTwo"
+                <a class="nav-link collapsed" href="index.php?page=kategori" 
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fa-solid fa-layer-group"></i>
                     <span>Kategori</span>
@@ -85,7 +85,7 @@ if (!isset($_SESSION["user"])) {
             </li>
         <?php endif; ?>
         <li class="nav-item">
-            <a class="nav-link collapsed" href="index.php?page=buku" data-toggle="collapse" data-target="#collapseTwo"
+            <a class="nav-link collapsed" href="index.php?page=buku" 
                 aria-expanded="true" aria-controls="collapseTwo">
                 <i class="fa-solid fa-book"></i>
                 <span>Buku</span>
@@ -99,7 +99,7 @@ if (!isset($_SESSION["user"])) {
                 </div> -->
         </li>
         <li class="nav-item">
-            <a class="nav-link collapsed" href="index.php?page=ulasan" data-toggle="collapse" data-target="#collapseTwo"
+            <a class="nav-link collapsed" href="index.php?page=ulasan" 
                 aria-expanded="true" aria-controls="collapseTwo">
                 <i class="fa-solid fa-comment"></i>
                 <span>Ulasan</span>
